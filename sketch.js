@@ -35,10 +35,10 @@ function draw() {
     bullet.velocityX=0;
     var deformation=0.5*weight*speed*speed/22509;
     if(weight<32&& speed<223&& thickness<70){
-      bullet.shapeColor=color(255,0,0);
+      bullet.shapeColor=color(0,128,0);
     }
     if(weight>32&& speed>233&& thickness>40){
-      bullet.shapeColor=color(255,0,0);
+      bullet.shapeColor=color(0,255,0);
     }
    
     
